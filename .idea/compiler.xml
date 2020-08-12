@@ -7,12 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="DropboxApi" />
+        <module name="globus-users-api" />
+        <module name="org-globus-dropbox-api" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="DropboxApi" options="-parameters" />
+      <module name="globus-users-api" options="-parameters" />
+      <module name="org-globus-dropbox-api" options="-parameters" />
     </option>
   </component>
 </project>

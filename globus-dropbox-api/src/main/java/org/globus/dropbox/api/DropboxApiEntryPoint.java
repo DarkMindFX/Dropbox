@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EntryPoint {
+public class DropboxApiEntryPoint {
 
     public static void main(String[] args) {
-        SpringApplication.run(EntryPoint.class, args);
+        SpringApplication.run(DropboxApiEntryPoint.class, args);
     }
 }

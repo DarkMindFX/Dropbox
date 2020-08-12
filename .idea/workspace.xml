@@ -39,7 +39,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:\Development\IntelliJ IDEA Community Edition 2020.2\plugins\maven\lib\maven3" />
+        <option name="mavenHome" value="C:\Development\IntelliJ IDEA Community Edition 2020.2\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -50,15 +50,37 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/DropboxApi" />
+    <property name="jdk.selected.JAVA_MODULE" value="14" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/globus-dropbox-api" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
-    <configuration name="EntryPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.globus.dropbox.api.EntryPoint" />
-      <module name="DropboxApi" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.globus.users.api.dto" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.UsersApiEntryPoint">
+    <configuration name="DropboxApiEntryPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.globus.dropbox.api.DropboxApiEntryPoint" />
+      <module name="org-globus-dropbox-api" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.globus.dropbox.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsersApiEntryPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.globus.users.api.UsersApiEntryPoint" />
+      <module name="globus-users-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.globus.users.api.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,7 +113,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EntryPoint" />
+        <item itemvalue="Application.UsersApiEntryPoint" />
+        <item itemvalue="Application.DropboxApiEntryPoint" />
       </list>
     </recent_temporary>
   </component>
@@ -128,39 +151,48 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597212907136">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1597220610721">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1597212907136" />
-    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1597216449925">
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1597220610721" />
+    <state x="435" y="53" width="1089" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597221283541">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1597216449925" />
-    <state x="548" y="167" key="FileChooserDialogImpl" timestamp="1597212823204">
+    <state x="435" y="53" width="1089" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1597221283541" />
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1597223460517">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1597212823204" />
-    <state width="1493" height="257" key="GridCell.Tab.0.bottom" timestamp="1597215069085">
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1597223460517" />
+    <state x="498" y="214" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1597220838930">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597215069085" />
-    <state width="1493" height="257" key="GridCell.Tab.0.center" timestamp="1597215069085">
+    <state x="498" y="214" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1597220838930" />
+    <state x="548" y="167" key="FileChooserDialogImpl" timestamp="1597220969668">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597215069085" />
-    <state width="1493" height="257" key="GridCell.Tab.0.left" timestamp="1597215069084">
+    <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1597220969668" />
+    <state width="1493" height="301" key="GridCell.Tab.0.bottom" timestamp="1597225751899">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597215069084" />
-    <state width="1493" height="257" key="GridCell.Tab.0.right" timestamp="1597215069085">
+    <state width="1493" height="301" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597225751899" />
+    <state width="1493" height="301" key="GridCell.Tab.0.center" timestamp="1597225751898">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597215069085" />
-    <state x="209" y="73" key="new project wizard" timestamp="1597211679201">
+    <state width="1493" height="301" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597225751898" />
+    <state width="1493" height="301" key="GridCell.Tab.0.left" timestamp="1597225751897">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="209" y="73" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1597211679201" />
+    <state width="1493" height="301" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597225751897" />
+    <state width="1493" height="301" key="GridCell.Tab.0.right" timestamp="1597225751899">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="301" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597225751899" />
+    <state x="209" y="73" key="new project wizard" timestamp="1597219944652">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="73" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1597219944652" />
   </component>
 </project>
