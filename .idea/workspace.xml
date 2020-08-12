@@ -3,12 +3,34 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:DropboxApi" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e8cfb3f0-8ccc-4e2e-9e35-7cbbaca3efea" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -21,9 +43,58 @@
     </option>
   </component>
   <component name="ProjectId" id="1fzCYLZbJoxwIacYMaCTrlEq0ty" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/DropboxApi" />
   </component>
+  <component name="RunManager">
+    <configuration name="EntryPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.globus.dropbox.api.EntryPoint" />
+      <module name="DropboxApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.globus.dropbox.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven" singleton="false">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/DropboxApi" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EntryPoint" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e8cfb3f0-8ccc-4e2e-9e35-7cbbaca3efea" name="Default Changelist" comment="" />
@@ -33,5 +104,62 @@
       <updated>1597211587643</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="DropboxApi" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597212907136">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1597212907136" />
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1597214213653">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1597214213653" />
+    <state x="548" y="167" key="FileChooserDialogImpl" timestamp="1597212823204">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1597212823204" />
+    <state width="1493" height="257" key="GridCell.Tab.0.bottom" timestamp="1597214990352">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="257" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597214990352" />
+    <state width="1493" height="257" key="GridCell.Tab.0.center" timestamp="1597214990351">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="257" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597214990351" />
+    <state width="1493" height="257" key="GridCell.Tab.0.left" timestamp="1597214990351">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="257" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597214990351" />
+    <state width="1493" height="257" key="GridCell.Tab.0.right" timestamp="1597214990352">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="257" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597214990352" />
+    <state x="209" y="73" key="new project wizard" timestamp="1597211679201">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="73" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1597211679201" />
   </component>
 </project>
