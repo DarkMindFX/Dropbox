@@ -1,0 +1,1 @@
+docker run -it -p 8989:8080 globus000/globus-users-api
