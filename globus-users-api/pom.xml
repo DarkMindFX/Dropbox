@@ -9,10 +9,9 @@
         <relativePath /> <!-- lookup parent from repository -->
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <packaging>war</packaging>
 
     <groupId>org.globus.users.api</groupId>
-    <artifactId>globus-users-api</artifactId>
+    <artifactId>org-globus-users-api</artifactId>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -20,24 +19,16 @@
         <java.version>1.8</java.version>
     </properties>
 
-    <build>
-        <finalName>${project.artifactId}</finalName>
-    </build>
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-tomcat</artifactId>
-            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
@@ -76,12 +67,6 @@
             <artifactId>junit</artifactId>
             <version>4.12</version>
             <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>javax.servlet-api</artifactId>
-            <version>3.1.0</version>
-            <scope>provided</scope>
         </dependency>
     </dependencies>
 

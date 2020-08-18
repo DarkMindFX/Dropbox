@@ -11,7 +11,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.globus.dropbox.api</groupId>
-    <artifactId>globus-dropbox-api</artifactId>
+    <artifactId>org-globus-dropbox-api</artifactId>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
