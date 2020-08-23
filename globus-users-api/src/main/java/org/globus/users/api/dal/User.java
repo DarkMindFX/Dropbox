@@ -10,6 +10,7 @@ public class User {
     private @Id @GeneratedValue Long id;
     private String login;
     private String pwd_hash;
+    private String email;
 
     public User() {
     }
@@ -41,5 +42,13 @@ public class User {
 
     public void setPwd_hash(String pwd_hash) {
         this.pwd_hash = pwd_hash;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 }

@@ -33,7 +33,7 @@ public class UsersController {
     public ResponseEntity<List<UserDto>> getUsers() {
 
         List<UserDto> result = new ArrayList<UserDto>();
-        usersDal.findAll().forEach( u -> result.add(new UserDto(u.getId(), u.getLogin(), null)));
+        usersDal.findAll().forEach( u -> result.add(new UserDto(u.getId(), u.getLogin(), null, u.getEmail())));
 
         return ResponseEntity.ok(result);
     }
@@ -42,7 +42,7 @@ public class UsersController {
     public ResponseEntity<UserDto> getUser(@PathVariable Long id) throws UserNotFoundException {
         User user = usersDal.findById(id).orElseThrow(() -> new UserNotFoundException(id, null));
 
-        UserDto result = new UserDto(user.getId(), user.getLogin(), null);
+        UserDto result = new UserDto(user.getId(), user.getLogin(), null, user.getEmail());
 
         return ResponseEntity.ok(result);
     }
@@ -53,7 +53,7 @@ public class UsersController {
         User newUser = new User(userDto.getLogin(), userDto.getPwd_hash());
         usersDal.save(newUser);
 
-        UserDto newUserDto = new UserDto(newUser.getId(), newUser.getLogin(), null);
+        UserDto newUserDto = new UserDto(newUser.getId(), newUser.getLogin(), null, newUser.getEmail());
 
         EntityModel<UserDto> entity = userModelAssembler.toModel(newUserDto);
 
