@@ -9,14 +9,16 @@ public class UserDto {
     private Long id;
     private String login;
     private String pwd_hash;
+    private String email;
 
     public UserDto() {
     }
 
-    public UserDto(Long id, String login, String pwd_hash) {
+    public UserDto(Long id, String login, String pwd_hash, String email) {
         this.login = login;
         this.pwd_hash = pwd_hash;
         this.id = id;
+        this.email = email;
     }
 
     public Long getId() {
@@ -41,5 +43,13 @@ public class UserDto {
 
     public void setPwd_hash(String pwd_hash) {
         this.pwd_hash = pwd_hash;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 }
