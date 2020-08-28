@@ -4,8 +4,7 @@
   <exec executable="xcopy">
     <arg value="target\globus-users-api.war"/>
     <arg value="..\Docker\globus-users-api\"/>
-    <arg value="/k"/>
-    <arg value="/d"/>
+    <arg value="/Y"/>
   </exec>
 </target>
 </project>

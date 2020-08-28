@@ -1,12 +1,13 @@
 C:\Projects\Java\Dropbox\globus-users-api\src\main\java\org\globus\users\api\UsersApiEntryPoint.java
-C:\Projects\Java\Dropbox\globus-users-api\src\main\java\org\globus\users\api\dal\UsersDal.java
 C:\Projects\Java\Dropbox\globus-users-api\src\main\java\org\globus\users\api\controllers\UsersController.java
 C:\Projects\Java\Dropbox\globus-users-api\src\main\java\org\globus\users\api\controllers\UtilsController.java
 C:\Projects\Java\Dropbox\globus-users-api\src\main\java\org\globus\users\api\dto\EchoRequest.java
 C:\Projects\Java\Dropbox\globus-users-api\src\main\java\org\globus\users\api\controllers\RestExceptionHandler.java
 C:\Projects\Java\Dropbox\globus-users-api\src\main\java\org\globus\users\api\dto\ExceptionResponseDto.java
 C:\Projects\Java\Dropbox\globus-users-api\src\main\java\org\globus\users\api\exceptions\UserNotFoundException.java
-C:\Projects\Java\Dropbox\globus-users-api\src\main\java\org\globus\users\api\dto\UserDto.java
 C:\Projects\Java\Dropbox\globus-users-api\src\main\java\org\globus\users\api\dal\User.java
 C:\Projects\Java\Dropbox\globus-users-api\src\main\java\org\globus\users\api\dto\EchoResponse.java
+C:\Projects\Java\Dropbox\globus-users-api\src\main\java\org\globus\users\api\dal\Session.java
+C:\Projects\Java\Dropbox\globus-users-api\src\main\java\org\globus\users\api\dal\UsersDal.java
+C:\Projects\Java\Dropbox\globus-users-api\src\main\java\org\globus\users\api\dto\UserDto.java
 C:\Projects\Java\Dropbox\globus-users-api\src\main\java\org\globus\users\api\controllers\UserModelAssembly.java
